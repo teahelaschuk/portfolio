@@ -28,6 +28,19 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
         max-width: 200px;
         height: 100vh;
     }
+
+    .screen {
+        min-height: 100vh;
+        max-height: 100vh;
+        overflow: hidden;
+    }
+
+    .content {
+        position: absolute;
+        right: 0;
+        width: auto;
+        left: 200px;
+    }
 }
 
 .footer {
@@ -39,6 +52,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 /* SCREEN + CONTENT LAYOUT */
+
 .content {
 }
 
