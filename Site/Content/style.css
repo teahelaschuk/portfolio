@@ -1,0 +1,123 @@
+﻿body {
+    color: #B3CBF2;
+    font-family: "Consolas";
+}
+
+.navbar {
+    width: 15vw;
+    height: 100%;
+    border-radius: 0px;
+}
+
+.navbar li {
+    float: none;
+}
+
+#navlinks li :hover {
+    font-style: italic;
+}
+
+#navlinks a {
+    padding:3px;
+}
+
+.content {
+    width: auto;
+    position:absolute;
+    right: 0;
+    left: 15vw;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #353748;
+    padding-left: 10px;
+}
+
+
+/* reseting margins */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+.screen {
+    min-height: 100vh;
+    overflow: hidden;
+    padding: 40px 30px 40px;
+}
+
+#landing {
+    background-color: #7B00FF;
+    overflow:hidden;
+}
+
+#landing p {
+    position:absolute;
+    left: -40px;
+    top: -10px;
+    font-size: 350px;
+    line-height: 250px;
+}
+
+#landing img {
+    width: 90%;
+    height: 90%;
+    margin-top: -40px;
+    margin-left: -30px;
+}
+
+
+/* about page */
+#screen-about {
+    background-color: #41d1b7;
+    color: #1b1b1b;
+    text-align: center;
+}
+
+#screen-about img {
+    border-radius:50%;
+    width: 300px;
+}
+
+.highlight-text {
+    width: 500px;
+    margin: auto;
+    text-shadow: 2px 2px lightgrey;
+}
+
+.highlight-text {
+    width: 500px;
+    margin: auto;
+    text-shadow: 2px 2px lightgrey;
+}
+
+
+
+#screen-contents {
+    background-color: #ff00dc;
+}
+
+#screen1 {
+    background-color: #00ff90;
+}
+
+#screen2 {
+    background-color: #A981F1;
+}
+
+#screen3 {
+    background-color: #990F48;
+}
+
+#screen4 {
+    background-color: #ff006e;
+}
+
