@@ -1,6 +1,7 @@
 ﻿body {
     color: #B3CBF2;
     font-family: "Consolas";
+    position: relative;
 }
 
 .container, .body-content, .content, #MainContent {
@@ -20,6 +21,16 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 
 /* NAVIGATION + FOOTER */
+
+.navbar {
+    background-color: black !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav > .active > a {
+    background-color: transparent !important;
+    background-image: none !important;
+    font-style: italic;
+}
 
 /* left nav bar on large screens only */
 @media only screen and (min-width: 768px) {

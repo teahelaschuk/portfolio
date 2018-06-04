@@ -2,13 +2,13 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <!-- landing page -->
-    <div class="screen" id="landing">
+    <div class="screen container-fluid" id="landing">
         <img src="Images/hell.png" alt="hello world">
         <!--p style="color:#FF0000; text-shadow: 20px 40px blue;">hello world</p-->
     </div>
 
     <!-- about -->
-    <div class="screen" id="screen-about">
+    <div class="screen container-fluid" id="screen-about">
         <div class="highlight-text">
             <img src="Images/music.jpg" alt="a picture of me" />
             <br />
@@ -25,26 +25,41 @@
     </div>
 
     <!-- contents -->
-    <div class="screen" id="screen-contents">
+    <div class="screen container-fluid" id="screen-contents">
     </div>
 
     <!-- project 1 -->
-    <div class="screen" id="screen1">
+    <div class="screen container-fluid" id="screen1">
         project 1
     </div>
 
-    <!-- project 1 -->
-    <div class="screen" id="screen2">
+    <!-- project 2 -->
+    <div class="screen container-fluid" id="screen2">
         project 2       
     </div>
 
-    <!-- project 1 -->
-    <div class="screen" id="screen3">
+    <!-- project 3 -->
+    <div class="screen container-fluid" id="screen3">
         project 3       
     </div>
 
-    <!-- project 1 -->
-    <div class="screen" id="screen4">
+    <!-- project 4 -->
+    <div class="screen container-fluid" id="screen4">
+        project 4...       
+    </div>
+
+    <!-- project 5 -->
+    <div class="screen container-fluid" id="screen5">
+        project 4...       
+    </div>
+
+    <!-- project 6 -->
+    <div class="screen container-fluid" id="screen6">
+        project 4...       
+    </div>
+
+    <!-- project 7 -->
+    <div class="screen container-fluid" id="screen7">
         project 4...       
     </div>
 

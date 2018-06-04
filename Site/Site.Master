@@ -17,7 +17,7 @@
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <link rel="StyleSheet" href="Content/style.css" type="text/css">
 </head>
-<body>
+<body  data-spy="scroll" data-target=".navbar" data-offset="50">
     <form runat="server">
         <asp:ScriptManager runat="server">
             <Scripts>
@@ -47,7 +47,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">TeahElaschuk</a>
+                <a class="navbar-brand" href="#landing">TeahElaschuk</a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav" id="navlinks">
@@ -57,9 +57,9 @@
                     <li><a href="#screen2">Project 2</a></li>
                     <li><a href="#screen3">Project 3</a></li>
                     <li><a href="#screen4">Project 4</a></li>
-                    <li><a href="#screen3">Project 5</a></li>
-                    <li><a href="#screen3">Project 6</a></li>
-                    <li><a href="#screen3">Project 7</a></li>
+                    <li><a href="#screen5">Project 5</a></li>
+                    <li><a href="#screen6">Project 6</a></li>
+                    <li><a href="#screen7">Project 7</a></li>
                 </ul>
             </div>
         </div>
