@@ -3,40 +3,10 @@
     font-family: "Consolas";
 }
 
-.navbar {
-    width: 15vw;
-    height: 100%;
-    border-radius: 0px;
+.container, .body-content, .content, #MainContent {
+    margin: 0;
+    padding: 0;
 }
-
-.navbar li {
-    float: none;
-}
-
-#navlinks li :hover {
-    font-style: italic;
-}
-
-#navlinks a {
-    padding:3px;
-}
-
-.content {
-    width: auto;
-    position:absolute;
-    right: 0;
-    left: 15vw;
-}
-
-.footer {
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #353748;
-    padding-left: 10px;
-}
-
-
 /* reseting margins */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
     margin: 0;
@@ -48,31 +18,70 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     background: transparent;
 }
 
+
+/* NAVIGATION + FOOTER */
+
+/* left nav bar on large screens only */
+@media only screen and (min-width: 768px) {
+    #sidebar {
+        min-width: 200px;
+        max-width: 200px;
+        height: 100vh;
+    }
+
+    .screen {
+        min-height: 100vh;
+        max-height: 100vh;
+        overflow: hidden;
+    }
+
+    .content {
+        position: absolute;
+        right: 0;
+        width: auto;
+        left: 200px;
+    }
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #353748;
+    padding-left: 10px;
+}
+
+/* SCREEN + CONTENT LAYOUT */
+
+.content {
+}
+
 .screen {
     min-height: 100vh;
+    max-height: 100vh;
+    width: 100%;
     overflow: hidden;
-    padding: 40px 30px 40px;
 }
 
 #landing {
     background-color: #7B00FF;
-    overflow:hidden;
+    overflow: hidden;
 }
 
-#landing p {
-    position:absolute;
-    left: -40px;
-    top: -10px;
-    font-size: 350px;
-    line-height: 250px;
-}
+    #landing p {
+        position: absolute;
+        left: -40px;
+        top: -10px;
+        font-size: 350px;
+        line-height: 250px;
+    }
 
-#landing img {
-    width: 90%;
-    height: 90%;
-    margin-top: -40px;
-    margin-left: -30px;
-}
+    #landing img {
+        width: 90%;
+        height: 90%;
+        margin-top: -40px;
+        margin-left: -30px;
+    }
 
 
 /* about page */
@@ -82,10 +91,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     text-align: center;
 }
 
-#screen-about img {
-    border-radius:50%;
-    width: 300px;
-}
+    #screen-about img {
+        border-radius: 50%;
+        width: 300px;
+    }
 
 .highlight-text {
     width: 500px;
@@ -120,4 +129,5 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 #screen4 {
     background-color: #ff006e;
 }
+
 
