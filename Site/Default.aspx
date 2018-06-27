@@ -3,35 +3,47 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <!-- landing page -->
     <div class="screen container-fluid" id="landing">
-        <img src="Images/hell.png" alt="hello world">
-        <!--p style="color:#FF0000; text-shadow: 20px 40px blue;">hello world</p-->
     </div>
 
-    <!-- about -->
+    <!-- about fix this.. side by side? watercolour self portrait -->
     <div class="screen container-fluid" id="screen-about">
         <div class="highlight-text">
-            <img src="Images/music.jpg" alt="a picture of me" />
-            <br />
+           
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pretium placerat ornare. 
-                 Curabitur vulputate, risus sed tristique aliquam, est diam iaculis felis, consequat lacinia 
-                 mauris lectus a sapien. Cras vestibulum, orci sed auctor efficitur, risus turpis lacinia orci, 
-                 vel maximus massa leo eu orci. Sed gravida metus eu maximus viverra. Phasellus dapibus aliquet 
-                 dapibus. Curabitur viverra elit sed sapien congue convallis. Morbi maximus quis metus vitae tempor.
-                 Fusce et dolor vitae purus luctus gravida. Ut sodales ex est, ut varius magna cursus sed. Morbi 
-                 elementum venenatis libero, id commodo nisl consequat eu. Phasellus finibus commodo sodales. 
+                this site is in development 
             </p>
         </div>
     </div>
 
-    <!-- contents -->
+    <!-- contents -->    
     <div class="screen container-fluid" id="screen-contents">
+
     </div>
 
     <!-- project 1 -->
     <div class="screen container-fluid" id="screen1">
-        project 1
+        <!-- left -->
+        <div class="col-xs-12 col-lg-6 container-words">
+            <img src="Images/placeholder.png" class="title-img" alt="page title"/>
+             <br />
+                <br />
+            <div class="project-desc">
+                <p>
+                Simplify is a local blah blah blah...
+                Made with Wordpress
+                WIP, June 2018
+                </p>
+            </div>
+            <br />
+            <a href="http://box5394.temp.domains/~simplje2/" target="_blank">Visit the Site</a>
+        </div>
+        <!-- right -->
+        <div class="col-xs-12 col-lg-6 container-img">
+            <img src="Images/simplify.png" class="display-img" alt="The Simplify online store"/>
+        </div>
+
     </div>
+       
 
     <!-- project 2 -->
     <div class="screen container-fluid" id="screen2">

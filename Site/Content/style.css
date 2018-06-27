@@ -1,5 +1,5 @@
 ﻿body {
-    color: #B3CBF2;
+    color: black;
     font-family: "Consolas";
     position: relative;
 }
@@ -67,6 +67,72 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .content {
 }
 
+.title-img {
+    width: 90%;
+}
+
+@media only screen and (max-width: 768px) {
+    .title-img {
+        width: 50%;
+    }
+
+    .display-img {
+        margin-top: 10px !important;
+    }
+}
+
+.project-desc {
+    width: 80%;
+}
+
+.container-words {
+    padding: 20px;
+}
+
+.container-img {
+    text-align: center;
+}
+
+.display-img {
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .display-img {
+        width: 70%;
+    }
+}
+
+a {
+    color: blueviolet;
+    font-style: italic;
+    font-size: larger;
+}
+
+a:hover {
+    color: #3A006F;
+    text-decoration: none;
+}
+
+/*
+.description {
+    margin: 10px;
+    width: 50%;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .title-img {
+        margin: 10px;
+        width: 70%;
+    }
+
+}
+    */
+
 .screen {
     min-height: 100vh;
     max-height: 100vh;
@@ -74,30 +140,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     overflow: hidden;
 }
 
-#landing {
-    background-color: #7B00FF;
-    overflow: hidden;
-}
-
-    #landing p {
-        position: absolute;
-        left: -40px;
-        top: -10px;
-        font-size: 350px;
-        line-height: 250px;
-    }
-
-    #landing img {
-        width: 90%;
-        height: 90%;
-        margin-top: -40px;
-        margin-left: -30px;
-    }
-
-
 /* about page */
 #screen-about {
-    background-color: #41d1b7;
     color: #1b1b1b;
     text-align: center;
 }
@@ -119,14 +163,19 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     text-shadow: 2px 2px lightgrey;
 }
 
-
-
-#screen-contents {
-    background-color: #ff00dc;
+.screen:nth-child(odd) {
+    background-color: white;
 }
 
+.screen:nth-child(even) {
+    background-color: lightgray;
+}
+
+/*
+
 #screen1 {
-    background-color: #00ff90;
+    background-image: url("https://get.pxhere.com/photo/cloud-sky-texture-wave-atmosphere-dark-splash-color-artistic-blue-paper-art-background-teal-backdrop-watercolor-paint-meteorological-phenomenon-watercolors-atmospheric-phenomenon-wind-wave-946806.jpg");
+    background-color: #cccccc;
 }
 
 #screen2 {
@@ -142,3 +191,4 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 
+*/

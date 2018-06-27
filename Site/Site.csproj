@@ -144,6 +144,9 @@
     </Content>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Images\hell.png" />
+    <Content Include="Images\placeholder.png" />
+    <Content Include="Images\simplify.PNG" />
+    <Content Include="Images\test.PNG" />
     <Content Include="Images\music.jpg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
