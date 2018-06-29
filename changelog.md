@@ -7,6 +7,12 @@ Portfolio web site - Teah Elaschuk 2018
  - make and finish actual projects
  - subdomains for mini apps (notepad--, haiku generator)
  
+## [0.4.0] - June 26 2018 
+### Added
+ - new backgrounds
+ - new title
+ 
+ 
 ## [0.3.0] - June 26 2018 
 ### Added
  - layout for content pages (project 1)

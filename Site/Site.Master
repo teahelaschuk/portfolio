@@ -47,7 +47,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#landing">TeahElaschuk</a>
+                <a class="navbar-brand" href="#landing"><img id="logo" src="Images/title.png" alt="Teah Elaschuk" /></a>
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav" id="navlinks">

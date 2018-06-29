@@ -35,7 +35,7 @@
                 </p>
             </div>
             <br />
-            <a href="http://box5394.temp.domains/~simplje2/" target="_blank">Visit the Site</a>
+            <a href="http://box5394.temp.domains/~simplje2/" class="link" target="_blank">Visit the Site</a>
         </div>
         <!-- right -->
         <div class="col-xs-12 col-lg-6 container-img">

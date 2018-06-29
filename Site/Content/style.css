@@ -22,6 +22,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 
 /* NAVIGATION + FOOTER */
 
+#logo {
+    max-width: 150px;
+}
+
 .navbar {
     background-color: black !important;
 }
@@ -106,7 +110,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     }
 }
 
-a {
+.link {
     color: blueviolet;
     font-style: italic;
     font-size: larger;
@@ -171,24 +175,44 @@ a:hover {
     background-color: lightgray;
 }
 
-/*
+
 
 #screen1 {
-    background-image: url("https://get.pxhere.com/photo/cloud-sky-texture-wave-atmosphere-dark-splash-color-artistic-blue-paper-art-background-teal-backdrop-watercolor-paint-meteorological-phenomenon-watercolors-atmospheric-phenomenon-wind-wave-946806.jpg");
-    background-color: #cccccc;
+    background-image: url('../Images/bg1.jpg');
+    background-size: cover;
 }
+
+
 
 #screen2 {
-    background-color: #A981F1;
+    background-image: url('../Images/bg2.jpg');
+    background-size: cover;
 }
 
+
 #screen3 {
-    background-color: #990F48;
+    background-image: url('../Images/bg6.jpg');
+    background-size: cover;
 }
 
 #screen4 {
-    background-color: #ff006e;
+    background-image: url('../Images/bg7.jpg');
+    background-size: cover;
+}
+
+#screen5 {
+    background-image: url('../Images/bg4.jpg');
+    background-size: cover;
+}
+
+#screen6 {
+    background-image: url('../Images/bg5.jpg');
+    background-size: cover;
+}
+
+#screen7 {
+    background-image: url('../Images/bg3.jpg');
+    background-size: cover;
 }
 
 
-*/
